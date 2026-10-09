@@ -50,8 +50,8 @@ The system deliberately keeps the ventilation fan **OFF** during a fire event. F
 
 ---
 
-## Notes for Professor: 
+## Note: 
 
 **Testing without hardware:** After importing the flow, open the Node-RED editor and click the sample inject node (preloaded with a test sensor payload). The debug panel on the right will display the processed message — showing the severity evaluation, and the data flowing through to the dashboard and database. No ESP32 or Raspberry Pi sensors are required to demonstrate the logic.
 
-The debug pannel `Debug 5` will throw an error this is because Gemini API key to run the AI explanation feature on the dashboard as well as on the debug pannel has not been inserted. Please generate a gemini api from [here](https://ai.google.dev/gemini-api/docs/api-key) or use our API key: `AQ.Ab8RN6Kml6efK8jeapP2B_0rmaEAmcVlAkfwlZ6LHNwJBvqbQA` please enter this key or your generated key in the gemini node. Gemini node> URL section> Scroll towards extreme right> Enter API.
+The debug pannel `Debug 5` will throw an error this is because Gemini API key to run the AI explanation feature on the dashboard as well as on the debug pannel has not been inserted. Please generate a gemini api from [here](https://ai.google.dev/gemini-api/docs/api-key) please enter your generated key in the gemini node. Gemini node> URL section> Scroll towards extreme right> Enter API.
